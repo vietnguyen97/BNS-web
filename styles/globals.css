@@ -4,13 +4,451 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
+  color: #020101;
 }
 
 * {
   box-sizing: border-box;
+}
+
+.bns-flex {
+  display: flex;
+}
+
+.bns-flex-column {
+  flex-direction: column;
+}
+
+.bns-justify-content-center {
+  justify-content: center;
+}
+
+.bns-justify-content-start {
+  justify-content: start;
+}
+
+.bns-justify-content-end {
+  justify-content: end;
+}
+
+.bns-justify-content-between {
+  justify-content: space-between;
+}
+
+.bns-justify-content-around {
+  justify-content: space-around;
+}
+
+.bns-align-items-center {
+  align-items: center;
+}
+
+.bns-align-items-start {
+  align-items: start;
+}
+
+.bns-align-items-end {
+  align-items: end;
+}
+
+.bns-mt-0 {
+  margin-top: 4px;
+}
+
+.bns-mt-1 {
+  margin-top: 8px;
+}
+
+.bns-mt-2 {
+  margin-top: 12px;
+}
+
+.bns-mt-3 {
+  margin-top: 16px;
+}
+
+.bns-mt-4 {
+  margin-top: 20px;
+}
+
+.bns-mt-5 {
+  margin-top: 24px;
+}
+
+.bns-mb-0 {
+  margin-bottom: 4px;
+}
+
+.bns-mb-1 {
+  margin-bottom: 8px;
+}
+
+.bns-mb-2 {
+  margin-bottom: 12px;
+}
+
+.bns-mb-3 {
+  margin-bottom: 16px;
+}
+
+.bns-mb-4 {
+  margin-bottom: 20px;
+}
+
+.bns-mb-5 {
+  margin-bottom: 24px;
+}
+
+.bns-mr-0 {
+  margin-right: 4px;
+}
+
+.bns-mr-1 {
+  margin-right: 8px;
+}
+
+.bns-mr-2 {
+  margin-right: 12px;
+}
+
+.bns-mr-3 {
+  margin-right: 16px;
+}
+
+.bns-mr-4 {
+  margin-right: 20px;
+}
+
+.bns-mr-5 {
+  margin-right: 24px;
+}
+
+.bns-ml-0 {
+  margin-left: 4px;
+}
+
+.bns-ml-1 {
+  margin-left: 8px;
+}
+
+.bns-ml-2 {
+  margin-left: 12px;
+}
+
+.bns-ml-3 {
+  margin-left: 16px;
+}
+
+.bns-ml-4 {
+  margin-left: 20px;
+}
+
+.bns-ml-5 {
+  margin-left: 24px;
+}
+
+.bns-pt-0 {
+  padding-top: 4px;
+}
+
+.bns-pt-1 {
+  padding-top: 8px;
+}
+
+.bns-pt-2 {
+  padding-top: 12px;
+}
+
+.bns-pt-3 {
+  padding-top: 16px;
+}
+
+.bns-pt-4 {
+  padding-top: 20px;
+}
+
+.bns-pt-5 {
+  padding-top: 24px;
+}
+
+.bns-pb-0 {
+  padding-bottom: 4px;
+}
+
+.bns-pb-1 {
+  padding-bottom: 8px;
+}
+
+.bns-pb-2 {
+  padding-bottom: 12px;
+}
+
+.bns-pb-3 {
+  padding-bottom: 16px;
+}
+
+.bns-pb-4 {
+  padding-bottom: 20px;
+}
+
+.bns-pb-5 {
+  padding-bottom: 24px;
+}
+
+.bns-pr-0 {
+  padding-right: 4px;
+}
+
+.bns-pr-1 {
+  padding-right: 8px;
+}
+
+.bns-pr-2 {
+  padding-right: 12px;
+}
+
+.bns-pr-3 {
+  padding-right: 16px;
+}
+
+.bns-pr-4 {
+  padding-right: 20px;
+}
+
+.bns-pr-5 {
+  padding-right: 24px;
+}
+
+.bns-pl-0 {
+  padding-left: 4px;
+}
+
+.bns-pl-1 {
+  padding-left: 8px;
+}
+
+.bns-pl-2 {
+  padding-left: 12px;
+}
+
+.bns-pl-3 {
+  padding-left: 16px;
+}
+
+.bns-pl-4 {
+  padding-left: 20px;
+}
+
+.bns-pl-5 {
+  padding-left: 24px;
+}
+
+.bns-t-0 {
+  top: 4px;
+}
+
+.bns-t-1 {
+  top: 8px;
+}
+
+.bns-t-2 {
+  top: 12px;
+}
+
+.bns-t-3 {
+  top: 16px;
+}
+
+.bns-t-4 {
+  top: 20px;
+}
+
+.bns-t-5 {
+  top: 24px;
+}
+
+.bns-t-50 {
+  top: 50%;
+}
+
+.bns-b-0 {
+  bottom: 4px;
+}
+
+.bns-b-1 {
+  bottom: 8px;
+}
+
+.bns-b-2 {
+  bottom: 12px;
+}
+
+.bns-b-3 {
+  bottom: 16px;
+}
+
+.bns-b-4 {
+  bottom: 20px;
+}
+
+.bns-b-5 {
+  bottom: 24px;
+}
+
+.bns-r-0 {
+  right: 4px;
+}
+
+.bns-r-1 {
+  right: 8px;
+}
+
+.bns-r-2 {
+  right: 12px;
+}
+
+.bns-r-3 {
+  right: 16px;
+}
+
+.bns-r-4 {
+  right: 20px;
+}
+
+.bns-r-5 {
+  right: 24px;
+}
+
+.bns-l-0 {
+  left: 4px;
+}
+
+.bns-l-1 {
+  left: 8px;
+}
+
+.bns-l-2 {
+  left: 12px;
+}
+
+.bns-l-3 {
+  left: 16px;
+}
+
+.bns-l-4 {
+  left: 20px;
+}
+
+.bns-l-5 {
+  left: 24px;
+}
+
+.bns-l-50 {
+  left: 50%;
+}
+
+.bns-fl {
+  float: left;
+}
+
+.bns-fr {
+  float: right;
+}
+
+.bns-text-center {
+  text-align: center;
+}
+
+.bns-text-right {
+  text-align: right;
+}
+
+.bns-text-left {
+  text-align: left;
+}
+
+.bns-font-size-0 {
+  font-size: 12px;
+}
+
+.bns-font-size-1 {
+  font-size: 14px;
+}
+
+.bns-font-size-2 {
+  font-size: 16px;
+}
+
+.bns-font-size-3 {
+  font-size: 20px;
+}
+
+.bns-font-size-4 {
+  font-size: 24px;
+}
+
+.bns-fw-bold {
+  font-weight: bold;
+}
+
+.bns-fw-800 {
+  font-weight: 800;
+}
+
+.bns-fw-500 {
+  font-weight: 500;
+}
+
+.bns-position-rl {
+  position: relative;
+}
+
+.bns-position-as {
+  position: absolute;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.is_point {
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.bns-br-1 {
+  border-radius: 4px;
+}
+
+.bns-br-2 {
+  border-radius: 6px;
+}
+
+.bns-br-3 {
+  border-radius: 8px;
+}
+
+.bns-br-50 {
+  border-radius: 50%;
+}
+
+.bns-no-border {
+  border: none;
 }
