@@ -1,8 +1,8 @@
 import type { NextPage } from "next";
-import BreadcrumbIndex from "../lib/shared/Breadcrumb";
 import FooterIndex from "../lib/shared/Footer";
 import HeadMainIndex from "../lib/shared/HeadMain";
 import PageLayoutIndex from "../lib/shared/PageLayout";
+import SendInfomationIndex from "../lib/shared/SendInformation";
 
 const Home: NextPage = () => {
     return (
@@ -10,7 +10,7 @@ const Home: NextPage = () => {
             <PageLayoutIndex>
                 <>
                     <HeadMainIndex />
-                    <BreadcrumbIndex />
+                    <SendInfomationIndex />
                 </>
             </PageLayoutIndex>
             <FooterIndex />

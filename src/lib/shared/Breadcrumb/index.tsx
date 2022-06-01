@@ -6,8 +6,10 @@ import { SBreadcrumb } from "./styled";
 
 const BreadcrumbIndex: NextPage = () => {
     return (
-        <SBreadcrumb>
-            <Button icon={<LeftOutlined />} className="btn">Quay lại trang chủ</Button>
+        <SBreadcrumb className="bns-flex bns-justify-content-between bns-align-items-center">
+            <Button icon={<LeftOutlined />} className="btn">
+                Quay lại trang chủ
+            </Button>
             <Breadcrumb separator=">">
                 <Breadcrumb.Item>Trang chủ</Breadcrumb.Item>
                 <Breadcrumb.Item href="">Dịch vụ</Breadcrumb.Item>

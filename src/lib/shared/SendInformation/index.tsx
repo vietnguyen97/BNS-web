@@ -1,0 +1,29 @@
+import { Col, Input, Row } from "antd";
+import { NextPage } from "next";
+import React from "react";
+import { SSendInfomation } from "./styled";
+
+const SendInfomationIndex: NextPage = () => {
+    return (
+        <SSendInfomation>
+            <Row>
+                <Col span={11} className="">
+                    <div>
+                        <span className="title">
+                            Ưu đãi dành riêng cho FDI lần đầu gia nhập thị
+                            trường và Startup
+                        </span>
+                    </div>
+                    <div className="bns-pt-5">
+                        <span className="email">
+                            Nhập email để nhận tư vấn miễn phí
+                        </span>
+                    </div>
+                    <Input />
+                </Col>
+            </Row>
+        </SSendInfomation>
+    );
+};
+
+export default SendInfomationIndex;

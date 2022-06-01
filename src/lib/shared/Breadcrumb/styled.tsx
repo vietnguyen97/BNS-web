@@ -1,9 +1,11 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const SBreadcrumb = styled.div`
     .btn {
-        padding: 12px;
+        border-radius: 20px;
+        background-color: transparent;
+        border: 1px solid;
     }
 `;
 
-export {SBreadcrumb}
+export { SBreadcrumb };

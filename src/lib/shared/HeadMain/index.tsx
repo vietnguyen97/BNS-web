@@ -17,7 +17,7 @@ const HeadMainIndex: NextPage = () => {
                     />
                 </Col>
                 <Col span={12}>
-                    <div>
+                    <div className="bns-flex bns-justify-content-end ">
                         <span className="content">HỒ SƠ</span>
                         <span className="content bns-pl">DỊCH VỤ</span>
                         <span className="content bns-pl">ĐỘI NGŨ</span>
