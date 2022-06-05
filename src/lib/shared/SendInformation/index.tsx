@@ -1,5 +1,6 @@
 import { Col, Input, Row } from "antd";
 import { NextPage } from "next";
+import Image from "next/image";
 import React from "react";
 import { SSendInfomation } from "./styled";
 
@@ -20,6 +21,17 @@ const SendInfomationIndex: NextPage = () => {
                         </span>
                     </div>
                     <Input />
+                </Col>
+                <Col span={13}>
+                    <div style={{ width: "100%", height: "100%" }}>
+                        <Image
+                            src="/asset/image/home/send-image.png"
+                            alt="send-image"
+                            width={640}
+                            height={676}
+                            layout="intrinsic"
+                        />
+                    </div>
                 </Col>
             </Row>
         </SSendInfomation>

@@ -5,6 +5,7 @@ const SSendInfomation = styled.div`
         font-weight: 700;
         font-size: 48px;
         color: #23262f;
+        letter-spacing: -0.02em;
     }
     .email {
         font-weight: 400;
