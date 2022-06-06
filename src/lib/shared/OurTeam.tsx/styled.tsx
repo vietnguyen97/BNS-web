@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 const SOurTeam = styled.div`
+    padding-bottom: 160px;
     .btn-switch svg {
         height: 24px;
         width: 40px;

@@ -1,3 +1,4 @@
+import { ArrowLeftOutlined, ArrowRightOutlined } from "@ant-design/icons";
 import { Col, Row } from "antd";
 import React, { useState } from "react";
 import { BuildingIcon } from "../icon/components/BuildingIcon";
@@ -5,17 +6,17 @@ import { ButtonSwitchIcon } from "../icon/components/ButtonSwitchIcon";
 import { SSubOurTeam } from "./styled";
 
 const SubOurTeamIndex = () => {
-    const [items] = useState([1, 2, 3,]);
+    const [items] = useState([1, 2, 3, 4]);
     return (
         <SSubOurTeam>
-            <div className="bns-flex bns-flex-column bns-align-items-start">
-                <ButtonSwitchIcon className="btn-switch" />
+            <div className="bns-flex bns-flex-column bns-align-items-start bns-pb-2">
+                <ButtonSwitchIcon className="btn-switch bns-pb-2" />
                 <span className="our-team">Our team</span>
             </div>
-            <div className="bns-flex bns-justify-content-start">
+            <div className="bns-flex bns-justify-content-start warp-sub-title">
                 <span className="sub-title">Lĩnh vực thành công</span>
             </div>
-            <Row>
+            <Row className="bns-align-items-center wrap-content">
                 <Col span={4}>
                     <div className="bns-flex bns-flex-column">
                         <span className="energy bns-pb-5">
@@ -43,6 +44,16 @@ const SubOurTeamIndex = () => {
                                 </div>
                             </div>
                         ))}
+                    </div>
+                </Col>
+            </Row>
+            <Row>
+                <Col span={24} className="warp-icon">
+                    <div className="arrow-left">
+                        <ArrowLeftOutlined />
+                    </div>
+                    <div className="arrow-right bns-ml-2">
+                        <ArrowRightOutlined />
                     </div>
                 </Col>
             </Row>

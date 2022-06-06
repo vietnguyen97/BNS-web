@@ -10,10 +10,10 @@ import { SBanner } from "./styled";
 const BannerIndex: NextPage = () => {
     return (
         <SBanner>
-            <Row>
+            <Row className="wrap-head">
                 <Col span={12}>
                     <div>
-                        <div>
+                        <div className="bns-pb-5">
                             <SunIcon className="sun-icon" />
                             <span className="bns-ml-1 join">Hãy tham gia </span>
                         </div>
@@ -26,7 +26,7 @@ const BannerIndex: NextPage = () => {
                             <span className="title-sub">
                                 BNS Vietnam cùng bạn chạm tới ước mơ
                             </span>
-                            <div>
+                            <div className="bns-pt-3">
                                 <ul>
                                     <li>
                                         Lower charge, better value, save our

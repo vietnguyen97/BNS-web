@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 const SService = styled.div`
+    padding-bottom: 200px;
     .btn-switch svg {
         width: 40px;
         height: 24px;
@@ -35,6 +36,9 @@ const SService = styled.div`
         font-size: 18px;
         line-height: 24px;
         color: #035989;
+    }
+    .wrap-title {
+        padding-bottom: 68px;
     }
 `;
 

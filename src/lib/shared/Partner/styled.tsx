@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 const SPartner = styled.div`
+    padding-bottom: 150px;
     .btn-switch svg {
         width: 40px;
         height: 24px;
@@ -19,10 +20,10 @@ const SPartner = styled.div`
         color: #23262f;
     }
     .partner-img {
-        padding-top: 60px;
+        padding-top: 68px;
     }
     .btn-partner {
-        padding-top: 54px;
+        padding-top: 68px;
         button {
             padding: 12px 16px;
             color: #23262f;

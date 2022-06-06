@@ -12,7 +12,7 @@ const SlickIndex = () => {
                 <div>
                     <Card
                         hoverable
-                        style={{ width: 240 }}
+                        style={{ width: 375 }}
                         cover={
                             <img
                                 alt="out-team-one"
@@ -28,7 +28,7 @@ const SlickIndex = () => {
                                 <span className="position-card bns-pt-2">
                                     CEO
                                 </span>
-                                <span className="exp-card bns-pt-2">
+                                <span className="exp-card bns-pt-2 bns-pl-5 bns-pr-5">
                                     Hơn 12 năm kinh nghiệm chuyên môn CFO tại
                                     các FDI SMEs.
                                 </span>
@@ -42,7 +42,7 @@ const SlickIndex = () => {
                 <div>
                     <Card
                         hoverable
-                        style={{ width: 240 }}
+                        style={{ width: 375 }}
                         cover={
                             <img
                                 alt="out-team-two"
@@ -58,7 +58,7 @@ const SlickIndex = () => {
                                 <span className="position-card bns-pt-2">
                                     CEO
                                 </span>
-                                <span className="exp-card bns-pt-2">
+                                <span className="exp-card bns-pt-2 bns-pl-5 bns-pr-5">
                                     Hơn 12 năm kinh nghiệm chuyên môn CFO tại
                                     các FDI SMEs.
                                 </span>
@@ -72,7 +72,7 @@ const SlickIndex = () => {
                 <div>
                     <Card
                         hoverable
-                        style={{ width: 240 }}
+                        style={{ width: 375 }}
                         cover={
                             <img
                                 alt="out-team-three"
@@ -88,7 +88,7 @@ const SlickIndex = () => {
                                 <span className="position-card bns-pt-2">
                                     CEO
                                 </span>
-                                <span className="exp-card bns-pt-2">
+                                <span className="exp-card bns-pt-2 bns-pl-5 bns-pr-5">
                                     Hơn 12 năm kinh nghiệm chuyên môn CFO tại
                                     các FDI SMEs.
                                 </span>

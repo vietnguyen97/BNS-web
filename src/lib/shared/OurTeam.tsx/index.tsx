@@ -9,8 +9,8 @@ import { Button } from "antd";
 const OurTeamIndex = () => {
     return (
         <SOurTeam>
-            <div className="bns-flex bns-flex-column bns-align-items-center">
-                <ButtonSwitchIcon className="btn-switch" />
+            <div className="bns-flex bns-flex-column bns-align-items-center bns-pb-2">
+                <ButtonSwitchIcon className="btn-switch bns-pb-2" />
                 <span className="our-team">Our team</span>
             </div>
             <div className="bns-flex bns-justify-content-center team">

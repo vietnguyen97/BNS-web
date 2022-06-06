@@ -1,6 +1,34 @@
 import styled from "styled-components";
 
 const SSubOurTeam = styled.div`
+    padding-bottom: 104px;
+    .warp-sub-title {
+        padding-bottom: 68px;
+    }
+    .warp-icon {
+        display: flex;
+        justify-content: center;
+    }
+    .arrow-right {
+        width: 40px;
+        height: 40px;
+        border: 2px solid #e6e8ec;
+        border-radius: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .arrow-left {
+        width: 40px;
+        height: 40px;
+        border-radius: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrap-content {
+        padding-bottom: 68px;
+    }
     .btn-switch svg {
         height: 24px;
         width: 40px;

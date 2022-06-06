@@ -9,7 +9,7 @@ const SendInfomationIndex: NextPage = () => {
     return (
         <SSendInfomation>
             <Row>
-                <Col span={11} className="">
+                <Col span={11} className="wrap">
                     <div className="bns-pr-5">
                         <span className="title">
                             Ưu đãi dành riêng cho FDI lần đầu gia nhập thị
@@ -25,7 +25,11 @@ const SendInfomationIndex: NextPage = () => {
                         className="inp-email"
                         placeholder="Your work email"
                         suffix={
-                            <Button type="primary" shape="circle" icon={<ArrowRightOutlined />} />
+                            <Button
+                                type="primary"
+                                shape="circle"
+                                icon={<ArrowRightOutlined />}
+                            />
                         }
                     />
                 </Col>

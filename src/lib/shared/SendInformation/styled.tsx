@@ -1,6 +1,12 @@
 import styled from "styled-components";
 
 const SSendInfomation = styled.div`
+    padding-bottom: 148px;
+    .wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
     .title {
         font-weight: 700;
         font-size: 48px;
@@ -19,6 +25,9 @@ const SSendInfomation = styled.div`
         height: 64px;
         border: 2px solid #e6e8ec;
         border-radius: 90px;
+        input {
+            font-size: 18px;
+        }
     }
     .ant-btn {
         background-image: linear-gradient(

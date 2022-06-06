@@ -7,8 +7,8 @@ import { SPartner } from "./styled";
 const PartnerIndex = () => {
     return (
         <SPartner>
-            <div className="bns-flex bns-flex-column bns-align-items-start">
-                <ButtonSwitchIcon className="btn-switch" />
+            <div className="bns-flex bns-flex-column bns-align-items-start bns-pb-2">
+                <ButtonSwitchIcon className="btn-switch bns-pb-2" />
                 <span className="title">Đối tác</span>
             </div>
             <div>

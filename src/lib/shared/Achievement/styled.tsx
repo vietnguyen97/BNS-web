@@ -1,6 +1,26 @@
 import styled from "styled-components";
 
 const SAchievement = styled.div`
+    .btn-switch svg {
+        width: 40px;
+        height: 24px;
+    }
+    .achievement {
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 124%;
+        color: #074586;
+    }
+    .always-bns {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 56px;
+        letter-spacing: -0.02em;
+        color: #23262f;
+    }
+    .warp-sub-title {
+        padding-bottom: 68px;
+    }
     .wrap {
         display: flex !important;
         display: -webkit-box !important;
@@ -36,33 +56,23 @@ const SAchievement = styled.div`
         display: flex !important;
         justify-content: center;
     }
-    .Q1 {
+    .common-quarterly {
         padding: 2px 12px;
-        background: #19a6e8;
         border-radius: 100px;
         width: 38px;
         height: 24px;
+    }
+    .Q1 {
+        background: #19a6e8;
     }
     .Q2 {
-        padding: 2px 12px;
         background: #45d87b;
-        border-radius: 100px;
-        width: 38px;
-        height: 24px;
     }
     .Q3 {
-        padding: 2px 12px;
         background: #db6535;
-        border-radius: 100px;
-        width: 38px;
-        height: 24px;
     }
     .Q4 {
-        padding: 2px 12px;
         background: #bdcc1e;
-        border-radius: 100px;
-        width: 38px;
-        height: 24px;
     }
 `;
 
