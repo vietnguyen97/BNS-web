@@ -62,6 +62,11 @@ const SBanner = styled.div`
         font-size: 32px;
         line-height: 148%;
     }
+    .company {
+        background: -webkit-linear-gradient(264.48deg, #79F1A4 -45.37%, #0E5CAD 88.97%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 `;
 
 export { SBanner };

@@ -7,6 +7,9 @@ import HeadMainIndex from "../lib/shared/HeadMain";
 import OurTeamIndex from "../lib/shared/OurTeam.tsx";
 import PageLayoutIndex from "../lib/shared/PageLayout";
 import PartnerIndex from "../lib/shared/Partner";
+import SendInfomationIndex from "../lib/shared/SendInformation";
+import ServiceIndex from "../lib/shared/Services";
+import SubOurTeamIndex from "../lib/shared/SubOurTeam";
 
 const Home: NextPage = () => {
     return (
@@ -18,10 +21,13 @@ const Home: NextPage = () => {
                     <OurTeamIndex />
                     <PartnerIndex />
                     <AchievementIndex />
+                    <SubOurTeamIndex />
+                    <ServiceIndex />
+                    <SendInfomationIndex />
                     <FooterInfomationIndex />
                 </>
             </PageLayoutIndex>
-            {/* <FooterIndex /> */}
+            <FooterIndex />
         </>
     );
 };

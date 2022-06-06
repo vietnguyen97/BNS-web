@@ -367,6 +367,13 @@ body {
   text-align: left;
 }
 
+.bns-text-end {
+  text-align: end;
+}
+.bns-text-start {
+  text-align: start;
+}
+
 .bns-font-size-0 {
   font-size: 12px;
 }

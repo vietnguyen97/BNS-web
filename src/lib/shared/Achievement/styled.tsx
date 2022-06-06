@@ -1,6 +1,15 @@
 import styled from "styled-components";
 
 const SAchievement = styled.div`
+    .wrap {
+        display: flex !important;
+        display: -webkit-box !important;
+        display: -webkit-flex !important;
+        display: -ms-flexbox !important;
+    }
+    .items {
+        padding-bottom: 48px;
+    }
     .title {
         font-weight: 700;
         font-size: 32px;
@@ -22,6 +31,10 @@ const SAchievement = styled.div`
         font-size: 14px;
         line-height: 20px;
         color: #fcfcfd;
+    }
+    .content-img {
+        display: flex !important;
+        justify-content: center;
     }
     .Q1 {
         padding: 2px 12px;

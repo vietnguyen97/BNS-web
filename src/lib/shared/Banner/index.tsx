@@ -19,7 +19,7 @@ const BannerIndex: NextPage = () => {
                         </div>
                         <div className="title bns-pt-2">
                             <span>TỎA SÁNG CÙNG</span> <br />
-                            <span>DOANH NGHIỆP</span> <br />
+                            <span className="company">DOANH NGHIỆP</span> <br />
                             <span>VIỆT NAM</span>
                         </div>
                         <div className="bns-pt-5">

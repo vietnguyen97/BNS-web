@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 const SFooter = styled.div`
-    position: absolute;
     width: 100%;
     bottom: 0;
     background-image: linear-gradient(

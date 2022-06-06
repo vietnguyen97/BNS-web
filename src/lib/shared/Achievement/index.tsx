@@ -8,48 +8,48 @@ const AchievementIndex = () => {
         <SAchievement>
             <Row>
                 <Col span={1} />
-                <Col span={7}>
+                <Col span={7} className="bns-align-items-center wrap">
                     <div>
-                        <div className="bns-flex bns-flex-column">
-                            <div className="Q1">
+                        <div className="items bns-flex bns-flex-column bns-align-items-end">
+                            <div className="Q1 bns-mb-5">
                                 <span className="quarterly">01</span>
                             </div>
-                            <span className="title">Tiết kiệm • 25.9%</span>
-                            <span className="sub-title">
+                            <span className="title bns-pb-3">Tiết kiệm • 25.9%</span>
+                            <span className="sub-title bns-pb-3">
                                 Nguồn lực tài chính
                             </span>
-                            <span className="content">
+                            <span className="content bns-text-end">
                                 Khi chọn BNS làm đơn vị hỗ trợ khởi nghiệp
                                 hgloặc đầu tư dài hạn vào thị trường Việt Nam
                             </span>
                         </div>
-                        <div className="bns-flex bns-flex-column">
-                            <div className="Q3">
+                        <div className="bns-flex bns-flex-column bns-align-items-end">
+                            <div className="Q3 bns-mb-5">
                                 <span className="quarterly">03</span>
                             </div>
-                            <span className="title">Giảm thiểu • 63.5%</span>
-                            <span className="sub-title">Thời gian chờ đợi</span>
-                            <span className="content">
+                            <span className="title bns-pb-3">Giảm thiểu • 63.5%</span>
+                            <span className="sub-title bns-pb-3">Thời gian chờ đợi</span>
+                            <span className="content bns-text-end">
                                 Chúng tôi thấu hiểu giá trị vĩnh cửu của thời
                                 gian để tối ưu từng hạng mục pháp lý đúng hẹn
                             </span>
                         </div>
                     </div>
                 </Col>
-                <Col span={8} className="bns-flex bns-justify-content-center">
+                <Col span={8} className="content-img">
                     <img
                         alt="BNS-Achievement"
                         src="/asset/image/home/achievement.png"
                     />
                 </Col>
-                <Col span={7}>
+                <Col span={7} className="bns-align-items-center wrap">
                     <div>
-                        <div className="bns-flex bns-flex-column">
-                            <div className="Q2">
+                        <div className="items bns-flex bns-flex-column">
+                            <div className="Q2 bns-mb-5">
                                 <span className="quarterly">02</span>
                             </div>
-                            <span className="title">Tinh & gọn • 25.9%</span>
-                            <span className="sub-title">
+                            <span className="title bns-pb-3">Tinh & gọn • 25.9%</span>
+                            <span className="sub-title bns-pb-3">
                                 Nguồn lực tài chính
                             </span>
                             <span className="content">
@@ -58,11 +58,11 @@ const AchievementIndex = () => {
                             </span>
                         </div>
                         <div className="bns-flex bns-flex-column">
-                            <div className="Q4">
+                            <div className="Q4 bns-mb-5">
                                 <span className="quarterly">04</span>
                             </div>
-                            <span className="title">Đúng hạn • 100.0%</span>
-                            <span className="sub-title">
+                            <span className="title bns-pb-3">Đúng hạn • 100.0%</span>
+                            <span className="sub-title bns-pb-3">
                                 Thuế và trách nhiệm xã hội
                             </span>
                             <span className="content">
