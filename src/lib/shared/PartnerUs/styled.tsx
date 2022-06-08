@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
-const STeamSingle = styled.div`
-    padding-top: 106px;
-    padding-bottom: 250px;
+const SPartnerUs = styled.div`
+    padding-bottom: 200px;
     .btn-switch svg {
         width: 40px;
         height: 24px;
@@ -21,18 +20,13 @@ const STeamSingle = styled.div`
         letter-spacing: -0.02em;
         color: #23262f;
     }
-    .img-avarta {
+    .partner-img {
         padding-bottom: 68px;
     }
-    .content-story {
-        padding-bottom: 38px;
-    }
     .common {
-        width: 778px;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 152.1%;
+        display: flex;
+        justify-content: center;
     }
 `;
 
-export { STeamSingle };
+export { SPartnerUs };

@@ -5,25 +5,21 @@ import FooterIndex from "../../lib/shared/Footer";
 import FooterInfomationIndex from "../../lib/shared/FooterInfomation";
 import HeadMainIndex from "../../lib/shared/HeadMain";
 import PageLayoutIndex from "../../lib/shared/PageLayout";
+import PartnerUsIndex from "../../lib/shared/PartnerUs";
 import SendInfomationIndex from "../../lib/shared/SendInformation";
-import TeamAllIndex from "../../lib/shared/TeamAll";
-import TeamSingleIndex from "../../lib/shared/TeamSingle";
 import TitleBannerIndex from "../../lib/shared/TitleBanner";
-import ValueTeamIndex from "../../lib/shared/ValueTeam";
-import WorkTeamIndex from "../../lib/shared/WorkTeam";
+import TitlePartnerIndex from "../../lib/shared/TitlePartner";
 
-const TeamPage: NextPage = () => {
+const PartnerPage: NextPage = () => {
     return (
         <>
             <PageLayoutIndex>
                 <>
                     <HeadMainIndex />
                     <BreadcrumbIndex />
-                    <TitleBannerIndex title="Đội ngũ" />
-                    <TeamSingleIndex />
-                    <ValueTeamIndex />
-                    <TeamAllIndex />
-                    <WorkTeamIndex />
+                    <TitleBannerIndex title="Đối tác của chúng tôi" />
+                    <TitlePartnerIndex />
+                    <PartnerUsIndex />
                     <SendInfomationIndex />
                     <FooterInfomationIndex />
                 </>
@@ -33,4 +29,4 @@ const TeamPage: NextPage = () => {
     );
 };
 
-export default TeamPage;
+export default PartnerPage;
