@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { Col, Row } from "antd";
 import React from "react";
 import { SInfomationBanner } from "./styled";
@@ -11,37 +12,61 @@ type Props = {
     contentFooterSub: string;
     contentFooterSubs?: string;
 };
-const InformationBanner = () => {
+const InformationBanner = (props: Props) => {
+    const {
+        contentFooterMain,
+        contentFooterSub,
+        contentHeadMain,
+        contentHeadSub,
+        image,
+        title,
+        contentFooterSubs,
+    } = props;
     return (
         <SInfomationBanner>
             <Row>
                 <Col span={11}>
-                    <div>
+                    <div className="wrap-title">
                         <span className="title">
-                            Sẵn sàng làn sóng dịch chuyển chuỗi cung ứng
+                            {title}
                         </span>
                     </div>
                 </Col>
             </Row>
-            <div>
+            <div className="common">
                 <span className="content-head">
-                    Giữa dòng biến động của thế giới, Việt Nam là điểm đến an
-                    toàn trong làn sóng dịch chuyển chuỗi cung ứng hậu COVID-19.
-                    Cộng đồng Doanh nghiệp thế giới đã và đang đánh giá cao môi
-                    trường kinh doanh và lợi thế cạnh tranh về vị trí chiến lược
-                    số 1 khu vực Đông Nam Á của Việt Nam.
-                </span>
-                <br />
-                <span className="content-head">
-                    Sẵn sàng trước thời vận đó, BNS đã đầu tư tái tạo nguồn lực
-                    và thực hành ứng dụng công nghệ thành công cho các khách
-                    hàng, đặc biệt là đối tượng Doanh nghiệp FDI tại Việt Nam
+                    {contentHeadMain}
                 </span>
             </div>
-            <Row>
-                <Col>
+            <div>
+                <span className="content-head">
+                    {contentHeadSub}
+                </span>
+            </div>
+            <Row className="content-footer">
+                <Col span={12}>
                     <div>
-                        <img />
+                        <img
+                            src={image}
+                            alt="banner"
+                        />
+                    </div>
+                </Col>
+                <Col span={12} className="wrap-footer">
+                    <div className="common">
+                        <span className="content-head">
+                            {contentFooterMain}
+                        </span>
+                    </div>
+                    <div className="common">
+                        <span className="content-head">
+                            {contentFooterSub}
+                        </span>
+                    </div>
+                    <div>
+                        <span className="content-head">
+                            {contentFooterSubs}
+                        </span>
                     </div>
                 </Col>
             </Row>

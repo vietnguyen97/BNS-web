@@ -1,6 +1,11 @@
 import styled from "styled-components";
 
 const SInfomationBanner = styled.div`
+    padding-bottom: 68px;
+    padding-top: 144px;
+    .wrap-title {
+        padding-bottom: 54px;
+    }
     .title {
         font-weight: 700;
         font-size: 48px;
@@ -13,6 +18,18 @@ const SInfomationBanner = styled.div`
         font-size: 18px;
         line-height: 152.1%;
         color: #23262f;
+    }
+    .common {
+        margin-bottom: 38px;
+    }
+    .content-footer {
+        padding-top: 54px;
+    }
+    .wrap-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 `;
 

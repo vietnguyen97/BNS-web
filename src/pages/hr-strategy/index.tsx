@@ -8,26 +8,24 @@ import InformationBanner from "../../lib/shared/InfomationBanner";
 import InfomationNowIndex from "../../lib/shared/InfomationNow";
 import PageLayoutIndex from "../../lib/shared/PageLayout";
 import SendInfomationIndex from "../../lib/shared/SendInformation";
-import ServiceAccountIndex from "../../lib/shared/ServiceAccount";
 import TitleBannerIndex from "../../lib/shared/TitleBanner";
 import {
     CONTENTfOOTERMAIN,
     CONTENTFOOTERSUB,
-    CONTENTFOOTERSUBS,
     CONTENTHEADMAIN,
     CONTENTHEADSUB,
     IMAGE,
     TITLE,
 } from "./contant";
 
-const ServicePage: NextPage = () => {
+const HrStrategyPage: NextPage = () => {
     return (
         <>
             <PageLayoutIndex>
                 <>
                     <HeadMainIndex />
                     <BreadcrumbIndex />
-                    <TitleBannerIndex title="Kế toán quản trị & thuế" />
+                    <TitleBannerIndex title="Chiến lược & nhân sự" />
                     <InformationBanner
                         title={TITLE}
                         contentFooterMain={CONTENTfOOTERMAIN}
@@ -35,10 +33,8 @@ const ServicePage: NextPage = () => {
                         contentHeadMain={CONTENTHEADMAIN}
                         contentHeadSub={CONTENTHEADSUB}
                         image={IMAGE}
-                        contentFooterSubs={CONTENTFOOTERSUBS}
                     />
                     <InfomationNowIndex />
-                    <ServiceAccountIndex />
                     <SendInfomationIndex />
                     <FooterInfomationIndex />
                 </>
@@ -48,4 +44,4 @@ const ServicePage: NextPage = () => {
     );
 };
 
-export default ServicePage;
+export default HrStrategyPage;
