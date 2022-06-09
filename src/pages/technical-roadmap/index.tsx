@@ -7,6 +7,7 @@ import HeadMainIndex from "../../lib/shared/HeadMain";
 import InformationBanner from "../../lib/shared/InfomationBanner";
 import InfomationNowIndex from "../../lib/shared/InfomationNow";
 import PageLayoutIndex from "../../lib/shared/PageLayout";
+import ReviewUsIndex from "../../lib/shared/ReviewUs";
 import RoadmapContentIndex from "../../lib/shared/RoadmapContent";
 import SendInfomationIndex from "../../lib/shared/SendInformation";
 import TitleBannerIndex from "../../lib/shared/TitleBanner";
@@ -37,6 +38,7 @@ const TechnicalRoadmapPage: NextPage = () => {
                     />
                     <InfomationNowIndex />
                     <RoadmapContentIndex />
+                    <ReviewUsIndex />
                     <SendInfomationIndex />
                     <FooterInfomationIndex />
                 </>

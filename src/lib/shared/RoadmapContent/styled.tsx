@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 const SRoadmapContent = styled.div`
+    padding-bottom: 150px;
     .common-quanlity {
         font-weight: 600;
         font-size: 14px;

@@ -1,7 +1,5 @@
 import React from "react";
 import { ButtonSwitchIcon } from "../icon/components/ButtonSwitchIcon";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import SlickIndex from "../Slick";
 import { SOurTeam } from "./styled";
 import { Button } from "antd";
