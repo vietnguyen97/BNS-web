@@ -3,6 +3,7 @@ import Image from "next/image";
 import React from "react";
 import { Row, Col } from "antd";
 import { SHeadMain } from "./styled";
+import { DownOutlined } from "@ant-design/icons";
 
 const HeadMainIndex: NextPage = () => {
     return (
@@ -22,6 +23,7 @@ const HeadMainIndex: NextPage = () => {
                         <span className="content bns-pl">DỊCH VỤ</span>
                         <span className="content bns-pl">ĐỘI NGŨ</span>
                         <span className="content bns-pl">LĨNH VỰC</span>
+                        <DownOutlined className="icon-line" />
                     </div>
                 </Col>
             </Row>

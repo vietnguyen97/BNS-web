@@ -12,6 +12,7 @@ const SSubOurTeam = styled.div`
     .arrow-right {
         width: 40px;
         height: 40px;
+        background: #ffffff;
         border: 2px solid #e6e8ec;
         border-radius: 40px;
         display: flex;
@@ -61,7 +62,9 @@ const SSubOurTeam = styled.div`
     .wrap-sub-card {
         width: 256px;
         border: 2px solid #f4f5f6;
+        background: #ffffff;
         border-radius: 24px;
+        box-sizing: border-box;
         padding: 40px 32px;
         margin-right: 32px;
         .build-icon svg {

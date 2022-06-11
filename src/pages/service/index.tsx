@@ -1,6 +1,15 @@
 import { NextPage } from "next";
 import React from "react";
 import BreadcrumbIndex from "../../lib/shared/Breadcrumb";
+import {
+    CONTENTfOOTERMAIN,
+    CONTENTFOOTERSUB,
+    CONTENTFOOTERSUBS,
+    CONTENTHEADMAIN,
+    CONTENTHEADSUB,
+    IMAGE,
+    TITLE,
+} from "../../lib/shared/Contant/contant-service";
 import FooterIndex from "../../lib/shared/Footer";
 import FooterInfomationIndex from "../../lib/shared/FooterInfomation";
 import HeadMainIndex from "../../lib/shared/HeadMain";
@@ -10,15 +19,6 @@ import PageLayoutIndex from "../../lib/shared/PageLayout";
 import SendInfomationIndex from "../../lib/shared/SendInformation";
 import ServiceAccountIndex from "../../lib/shared/ServiceAccount";
 import TitleBannerIndex from "../../lib/shared/TitleBanner";
-import {
-    CONTENTfOOTERMAIN,
-    CONTENTFOOTERSUB,
-    CONTENTFOOTERSUBS,
-    CONTENTHEADMAIN,
-    CONTENTHEADSUB,
-    IMAGE,
-    TITLE,
-} from "./contant";
 
 const ServicePage: NextPage = () => {
     return (
@@ -46,6 +46,12 @@ const ServicePage: NextPage = () => {
             <FooterIndex />
         </>
     );
+};
+
+export const getStaticProps = async () => {
+    return {
+        props: {},
+    };
 };
 
 export default ServicePage;

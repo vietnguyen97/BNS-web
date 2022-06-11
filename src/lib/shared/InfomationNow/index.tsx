@@ -15,7 +15,7 @@ const InfomationNowIndex = () => {
                 </div>
             </div>
         </SInfomationNow>
-    )
-}
+    );
+};
 
 export default InfomationNowIndex;

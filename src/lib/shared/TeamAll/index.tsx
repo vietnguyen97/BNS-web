@@ -18,7 +18,10 @@ const TeamAllIndex = () => {
                 <Col span={8} className="warp">
                     <Card
                         hoverable
-                        style={{ width: 375 }}
+                        style={{
+                            width: 375,
+                            borderRadius: "20px 20px 0px 0px",
+                        }}
                         cover={
                             <img
                                 alt="out-team-three"
@@ -48,7 +51,10 @@ const TeamAllIndex = () => {
                 <Col span={8} className="warp">
                     <Card
                         hoverable
-                        style={{ width: 375 }}
+                        style={{
+                            width: 375,
+                            borderRadius: "20px 20px 0px 0px",
+                        }}
                         cover={
                             <img
                                 alt="out-team-three"
@@ -78,7 +84,10 @@ const TeamAllIndex = () => {
                 <Col span={8} className="warp">
                     <Card
                         hoverable
-                        style={{ width: 375 }}
+                        style={{
+                            width: 375,
+                            borderRadius: "20px 20px 0px 0px",
+                        }}
                         cover={
                             <img
                                 alt="out-team-three"
@@ -111,7 +120,10 @@ const TeamAllIndex = () => {
                 <Col span={8} className="warp">
                     <Card
                         hoverable
-                        style={{ width: 375 }}
+                        style={{
+                            width: 375,
+                            borderRadius: "20px 20px 0px 0px",
+                        }}
                         cover={
                             <img
                                 alt="out-team-three"
@@ -141,7 +153,10 @@ const TeamAllIndex = () => {
                 <Col span={8} className="warp">
                     <Card
                         hoverable
-                        style={{ width: 375 }}
+                        style={{
+                            width: 375,
+                            borderRadius: "20px 20px 0px 0px",
+                        }}
                         cover={
                             <img
                                 alt="out-team-three"
@@ -171,7 +186,10 @@ const TeamAllIndex = () => {
                 <Col span={8} className="warp">
                     <Card
                         hoverable
-                        style={{ width: 375 }}
+                        style={{
+                            width: 375,
+                            borderRadius: "20px 20px 0px 0px",
+                        }}
                         cover={
                             <img
                                 alt="out-team-three"

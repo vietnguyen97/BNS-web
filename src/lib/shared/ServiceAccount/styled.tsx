@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const SServiceAccount = styled.div`
-    padding-bottom: 96px;
+    padding-bottom: 200px;
     .btn-switch svg {
         width: 40px;
         height: 24px;
@@ -26,6 +26,7 @@ const SServiceAccount = styled.div`
         padding: 32px;
         border: 2px solid #e6e8ec;
         border-radius: 16px;
+        background: #ffffff;
     }
     .service-name {
         font-weight: 700;

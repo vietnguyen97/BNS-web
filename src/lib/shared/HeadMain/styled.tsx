@@ -8,6 +8,15 @@ const SHeadMain = styled.div`
     .bns-pl {
         padding-left: 48px;
     }
+    .icon-line {
+        display: flex;
+        align-items: center;
+        padding-left: 72px;
+        svg {
+            width: 20px;
+            height: 20px;
+        }
+    }
 `;
 
 export { SHeadMain };

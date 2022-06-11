@@ -1,6 +1,14 @@
 import { NextPage } from "next";
 import React from "react";
 import BreadcrumbIndex from "../../lib/shared/Breadcrumb";
+import {
+    CONTENTfOOTERMAIN,
+    CONTENTFOOTERSUB,
+    CONTENTHEADMAIN,
+    CONTENTHEADSUB,
+    IMAGE,
+    TITLE,
+} from "../../lib/shared/Contant/contant-roadmap";
 import FooterIndex from "../../lib/shared/Footer";
 import FooterInfomationIndex from "../../lib/shared/FooterInfomation";
 import HeadMainIndex from "../../lib/shared/HeadMain";
@@ -11,14 +19,6 @@ import ReviewUsIndex from "../../lib/shared/ReviewUs";
 import RoadmapContentIndex from "../../lib/shared/RoadmapContent";
 import SendInfomationIndex from "../../lib/shared/SendInformation";
 import TitleBannerIndex from "../../lib/shared/TitleBanner";
-import {
-    CONTENTfOOTERMAIN,
-    CONTENTFOOTERSUB,
-    CONTENTHEADMAIN,
-    CONTENTHEADSUB,
-    IMAGE,
-    TITLE,
-} from "./contant";
 
 const TechnicalRoadmapPage: NextPage = () => {
     return (
@@ -46,6 +46,12 @@ const TechnicalRoadmapPage: NextPage = () => {
             <FooterIndex />
         </>
     );
+};
+
+export const getStaticProps = async () => {
+    return {
+        props: {},
+    };
 };
 
 export default TechnicalRoadmapPage;

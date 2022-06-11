@@ -11,4 +11,3 @@ export const CONTENTfOOTERMAIN =
 
 export const CONTENTFOOTERSUB =
     "Sự hài lòng và kết quả của trải nghiệm người dùng cùng nguồn doanh thu khả quan là đích đến của hệ thống Outsourcing IT do BNS đảm nhận.";
-

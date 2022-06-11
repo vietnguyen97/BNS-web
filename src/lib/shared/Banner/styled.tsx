@@ -2,6 +2,17 @@ import styled from "styled-components";
 
 const SBanner = styled.div`
     padding-top: 124px;
+    ::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        background-image: url("/asset/image/home/bg-hidden.png");
+        background-size: 360px;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+    }
     .wrap-head {
         padding-bottom: 68px;
     }

@@ -16,7 +16,7 @@ const WorkTeamIndex = () => {
             </div>
             <Row>
                 <Col span={12}>
-                    <div className="bns-flex bns-flex-column">
+                    <div className="bns-flex bns-flex-column bns-align-items-end">
                         <div className="wrap-img">
                             <img
                                 src="/asset/image/team/avarta-1.png"
@@ -43,7 +43,8 @@ const WorkTeamIndex = () => {
                         </div>
                     </div>
                 </Col>
-                <Col span={12}>
+                <Col span={1} />
+                <Col span={11}>
                     <div className="bns-flex bns-flex-column">
                         <div className="wrap-img">
                             <img

@@ -22,7 +22,11 @@ const TitlePartnerIndex = () => {
                 </Col>
             </Row>
             <div className="bns-flex bns-justify-content-center img-banner">
-                <img alt="banner" src="/asset/image/partner/banner.png" />
+                <img
+                    alt="banner"
+                    src="/asset/image/partner/banner.png"
+                    className="w-100"
+                />
             </div>
         </STilePartner>
     );

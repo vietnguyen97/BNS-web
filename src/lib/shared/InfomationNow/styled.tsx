@@ -29,6 +29,7 @@ const SInfomationNow = styled.div`
         font-weight: 700;
         font-size: 18px;
         line-height: 19px;
+        padding: 4px 24px;
     }
 `;
 
