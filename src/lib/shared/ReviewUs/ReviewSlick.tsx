@@ -6,7 +6,7 @@ import { SETTING } from "./contant";
 const ReviewSlickIndex = () => {
     const [data] = useState([1, 2, 3, 4, 5, 6]);
     return (
-        <div style={{backgroundColor: "transparent"}}>
+        <div>
             <Slider {...SETTING}>
                 {data.map(el => (
                     <div

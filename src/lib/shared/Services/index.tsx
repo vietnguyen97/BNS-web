@@ -3,8 +3,13 @@ import { Col, Row } from "antd";
 import React from "react";
 import { ButtonSwitchIcon } from "../icon/components/ButtonSwitchIcon";
 import { SService } from "./styled";
+import { useRouter } from "next/router";
 
 const ServiceIndex = () => {
+    const router = useRouter();
+    const handleRoute = (link: string) => {
+        router.push(link);
+    };
     return (
         <SService>
             <div className="bns-flex bns-flex-column bns-align-items-center bns-pb-2">
@@ -30,7 +35,12 @@ const ServiceIndex = () => {
                             <span className="count-service bns-pb-3">
                                 13 Dịch vụ
                             </span>
-                            <span className="see-more">Xem thêm</span>
+                            <span
+                                className="see-more is_point"
+                                onClick={() => handleRoute("/service")}
+                            >
+                                Xem thêm
+                            </span>
                         </div>
                     </div>
                 </Col>
@@ -49,7 +59,12 @@ const ServiceIndex = () => {
                             <span className="count-service bns-pb-3">
                                 13 Dịch vụ
                             </span>
-                            <span className="see-more">Xem thêm</span>
+                            <span
+                                className="see-more is_point"
+                                onClick={() => handleRoute("/hr-strategy")}
+                            >
+                                Xem thêm
+                            </span>
                         </div>
                     </div>
                 </Col>
@@ -68,7 +83,14 @@ const ServiceIndex = () => {
                             <span className="count-service bns-pb-3">
                                 13 Dịch vụ
                             </span>
-                            <span className="see-more">Xem thêm</span>
+                            <span
+                                className="see-more is_point"
+                                onClick={() =>
+                                    handleRoute("/technical-roadmap")
+                                }
+                            >
+                                Xem thêm
+                            </span>
                         </div>
                     </div>
                 </Col>
@@ -87,7 +109,12 @@ const ServiceIndex = () => {
                             <span className="count-service bns-pb-3">
                                 13 Dịch vụ
                             </span>
-                            <span className="see-more">Xem thêm</span>
+                            <span
+                                className="see-more is_point"
+                                onClick={() => handleRoute("/hr-strategy")}
+                            >
+                                Xem thêm
+                            </span>
                         </div>
                     </div>
                 </Col>

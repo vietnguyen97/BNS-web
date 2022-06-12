@@ -62,7 +62,7 @@ const SReviewUs = styled.div`
         margin: 10px;
         position: relative;
     }
-    @media (max-width: 1900px) {
+    @media (max-width: 19000px) {
         .wrap-card {
             font-size: 24px;
         }
