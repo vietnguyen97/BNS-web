@@ -26,7 +26,13 @@ const FooterInfomationIndex: NextPage = () => {
                     </div>
                     <div className="bns-flex bns-align-items-center">
                         <div className="bns-pr-2">
-                            <LindedInIcon />
+                            <a
+                                target="_blank"
+                                href="https://www.linkedin.com/"
+                                rel="noreferrer"
+                            >
+                                <LindedInIcon className="is_point" />
+                            </a>
                         </div>
                         <div className="bns-flex bns-flex-column">
                             <span className="follow">Follow on LindedIn</span>

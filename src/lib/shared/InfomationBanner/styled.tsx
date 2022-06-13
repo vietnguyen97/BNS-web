@@ -31,6 +31,17 @@ const SInfomationBanner = styled.div`
         justify-content: center;
         align-items: center;
     }
+    @media only screen and (max-width: 1300px) {
+        .content-footer img {
+            width: 100%;
+        }
+        .content-head {
+            font-size: 16px;
+        }
+        .wrap-footer {
+            padding-left: 16px;
+        }
+    }
 `;
 
 export { SInfomationBanner };

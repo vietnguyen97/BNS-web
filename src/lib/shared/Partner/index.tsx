@@ -20,19 +20,19 @@ const PartnerIndex = () => {
                 <span className="sub-title">Đối tác tạo nên giá trị</span>
             </div>
             <Row className="partner-img">
-                <Col span={6}>
+                <Col span={6} className="wrap-img">
                     <img src="/asset/image/home/coinbase.png" alt="coinbase" />
                 </Col>
-                <Col span={6}>
+                <Col span={6} className="wrap-img">
                     <img
                         src="/asset/image/home/andreessen.png"
                         alt="andreessen"
                     />
                 </Col>
-                <Col span={6}>
+                <Col span={6} className="wrap-img">
                     <img src="/asset/image/home/nft.png" alt="nft" />
                 </Col>
-                <Col span={6}>
+                <Col span={6} className="wrap-img">
                     <img
                         src="/asset/image/home/quantstam.png"
                         alt="quantstam"

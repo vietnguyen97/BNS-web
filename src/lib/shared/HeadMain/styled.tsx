@@ -17,6 +17,11 @@ const SHeadMain = styled.div`
             height: 20px;
         }
     }
+    @media only screen and (max-width: 1300px) {
+        .bns-pl {
+            padding-left: 35px;
+        }
+    }
 `;
 
 export { SHeadMain };

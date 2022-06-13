@@ -35,6 +35,10 @@ const SPartner = styled.div`
             border-radius: 90px;
         }
     }
+    .wrap-img {
+        display: flex;
+        justify-content: center;
+    }
 `;
 
 export { SPartner };

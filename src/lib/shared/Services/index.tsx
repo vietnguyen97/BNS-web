@@ -28,19 +28,17 @@ const ServiceIndex = () => {
                                 alt="service-account"
                             />
                         </div>
-                        <div className="bns-flex bns-flex-column bns-align-items-center">
+                        <div
+                            className="bns-flex bns-flex-column bns-align-items-center is_point"
+                            onClick={() => handleRoute("/service")}
+                        >
                             <span className="name-service bns-pb-1">
                                 Accounting & Tax
                             </span>
                             <span className="count-service bns-pb-3">
                                 13 Dịch vụ
                             </span>
-                            <span
-                                className="see-more is_point"
-                                onClick={() => handleRoute("/service")}
-                            >
-                                Xem thêm
-                            </span>
+                            <span className="see-more">Xem thêm</span>
                         </div>
                     </div>
                 </Col>
@@ -52,19 +50,17 @@ const ServiceIndex = () => {
                                 alt="service-hr"
                             />
                         </div>
-                        <div className="bns-flex bns-flex-column bns-align-items-center">
+                        <div
+                            className="bns-flex bns-flex-column bns-align-items-center is_point"
+                            onClick={() => handleRoute("/hr-strategy")}
+                        >
                             <span className="name-service bns-pb-1">
                                 HR Services
                             </span>
                             <span className="count-service bns-pb-3">
                                 13 Dịch vụ
                             </span>
-                            <span
-                                className="see-more is_point"
-                                onClick={() => handleRoute("/hr-strategy")}
-                            >
-                                Xem thêm
-                            </span>
+                            <span className="see-more is_point">Xem thêm</span>
                         </div>
                     </div>
                 </Col>
@@ -76,21 +72,17 @@ const ServiceIndex = () => {
                                 alt="service-it"
                             />
                         </div>
-                        <div className="bns-flex bns-flex-column bns-align-items-center">
+                        <div
+                            className="bns-flex bns-flex-column bns-align-items-center is_point"
+                            onClick={() => handleRoute("/technical-roadmap")}
+                        >
                             <span className="name-service bns-pb-1">
                                 IT System Consulting
                             </span>
                             <span className="count-service bns-pb-3">
                                 13 Dịch vụ
                             </span>
-                            <span
-                                className="see-more is_point"
-                                onClick={() =>
-                                    handleRoute("/technical-roadmap")
-                                }
-                            >
-                                Xem thêm
-                            </span>
+                            <span className="see-more is_point">Xem thêm</span>
                         </div>
                     </div>
                 </Col>
@@ -102,19 +94,17 @@ const ServiceIndex = () => {
                                 alt="service-sub-hr"
                             />
                         </div>
-                        <div className="bns-flex bns-flex-column bns-align-items-center">
+                        <div
+                            className="bns-flex bns-flex-column bns-align-items-center is_point"
+                            onClick={() => handleRoute("/hr-strategy")}
+                        >
                             <span className="name-service bns-pb-1">
                                 HR Services
                             </span>
                             <span className="count-service bns-pb-3">
                                 13 Dịch vụ
                             </span>
-                            <span
-                                className="see-more is_point"
-                                onClick={() => handleRoute("/hr-strategy")}
-                            >
-                                Xem thêm
-                            </span>
+                            <span className="see-more is_point">Xem thêm</span>
                         </div>
                     </div>
                 </Col>

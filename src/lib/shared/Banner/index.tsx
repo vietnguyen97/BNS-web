@@ -6,8 +6,13 @@ import React from "react";
 import { LindedInIcon } from "../icon";
 import { SunIcon } from "../icon/components/SunIcon";
 import { SBanner } from "./styled";
+import { useRouter } from "next/router";
 
 const BannerIndex: NextPage = () => {
+    const router = useRouter();
+    const handleRoute = (link: string) => {
+        router.push(link);
+    };
     return (
         <SBanner>
             <Row className="wrap-head">
@@ -39,7 +44,10 @@ const BannerIndex: NextPage = () => {
                             </div>
                         </div>
                         <div className="btn bns-pt-3">
-                            <Button className="btn-banner">
+                            <Button
+                                className="btn-banner"
+                                onClick={() => handleRoute("/team")}
+                            >
                                 View our team
                             </Button>
                         </div>
@@ -59,14 +67,16 @@ const BannerIndex: NextPage = () => {
             <Row>
                 <Col span={12}>
                     <div>
-                        <div className="footer-banner">
+                        <div className="footer-banner bns-pb-3">
                             <span>
                                 “A comprehensive mindset of strategy for Vietnam
                                 FDI Post Covid 19”
                             </span>
                         </div>
                         <div className="bns-flex bns-align-items-center">
-                            <LindedInIcon className="linded-icon" />
+                            <a target="_blank" href="https://www.linkedin.com/" rel="noreferrer">
+                                <LindedInIcon className="linded-icon is_point" />
+                            </a>
                             <div className="bns-flex bns-flex-column bns-pl-2">
                                 <span className="follow">
                                     Follow on LindedIn
