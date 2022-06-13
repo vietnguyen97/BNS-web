@@ -1,8 +1,10 @@
 import { ArrowLeftOutlined, ArrowRightOutlined } from "@ant-design/icons";
 import { Col, Row } from "antd";
 import React, { useState } from "react";
+import Slider from "react-slick";
 import { BuildingIcon } from "../icon/components/BuildingIcon";
 import { ButtonSwitchIcon } from "../icon/components/ButtonSwitchIcon";
+import { SETTING } from "./contant";
 import { SSubOurTeam } from "./styled";
 
 const SubOurTeamIndex = () => {
@@ -29,7 +31,7 @@ const SubOurTeamIndex = () => {
                         <span className="content">Sản xuất công nghiệp</span>
                     </div>
                 </Col>
-                <Col span={20}>
+                {/* <Col span={20}>
                     <div className="bns-flex">
                         {items.map(el => (
                             <div className="wrap-sub-card" key={el}>
@@ -45,6 +47,54 @@ const SubOurTeamIndex = () => {
                             </div>
                         ))}
                     </div>
+                </Col> */}
+                <Col span={20}>
+                    <Slider {...SETTING}>
+                        <div className="wrap-sub-card">
+                            <div className="bns-flex bns-flex-column wrap">
+                                <BuildingIcon className="build-icon" />
+                                <span className="name-team">
+                                    ATHENA GROUP VIETNAM
+                                </span>
+                                <span className="link bns-pt-3">
+                                    Athenagroup.com.vn
+                                </span>
+                            </div>
+                        </div>
+                        <div className="wrap-sub-card">
+                            <div className="bns-flex bns-flex-column wrap">
+                                <BuildingIcon className="build-icon" />
+                                <span className="name-team">
+                                    ATHENA GROUP VIETNAM
+                                </span>
+                                <span className="link bns-pt-3">
+                                    Athenagroup.com.vn
+                                </span>
+                            </div>
+                        </div>
+                        <div className="wrap-sub-card">
+                            <div className="bns-flex bns-flex-column wrap">
+                                <BuildingIcon className="build-icon" />
+                                <span className="name-team">
+                                    ATHENA GROUP VIETNAM
+                                </span>
+                                <span className="link bns-pt-3">
+                                    Athenagroup.com.vn
+                                </span>
+                            </div>
+                        </div>
+                        <div className="wrap-sub-card">
+                            <div className="bns-flex bns-flex-column wrap">
+                                <BuildingIcon className="build-icon" />
+                                <span className="name-team">
+                                    ATHENA GROUP VIETNAM
+                                </span>
+                                <span className="link bns-pt-3">
+                                    Athenagroup.com.vn
+                                </span>
+                            </div>
+                        </div>
+                    </Slider>
                 </Col>
             </Row>
             <Row>

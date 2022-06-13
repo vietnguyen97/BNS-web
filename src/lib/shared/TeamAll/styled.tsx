@@ -49,6 +49,9 @@ const STeamAll = styled.div`
         color: #777e90;
         text-align: center;
     }
+    .ant-card-bordered {
+        border: none;
+    }
 `;
 
 export { STeamAll };

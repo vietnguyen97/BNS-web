@@ -65,6 +65,13 @@ const SServiceAccount = styled.div`
     .warp-hot {
         padding-top: 30px;
     }
+    @media only screen and (max-width: 1400px) {
+        .service-name {
+            font-size: 20px;
+            line-height: 30px;
+            color: #141416;
+        }
+    }
 `;
 
 export { SServiceAccount };

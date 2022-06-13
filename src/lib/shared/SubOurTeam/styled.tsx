@@ -66,7 +66,6 @@ const SSubOurTeam = styled.div`
         border-radius: 24px;
         box-sizing: border-box;
         padding: 40px 32px;
-        margin-right: 32px;
         .build-icon svg {
             height: 40px;
             width: 40px;
@@ -86,6 +85,15 @@ const SSubOurTeam = styled.div`
             font-size: 18px;
             line-height: 20px;
             color: #035989;
+        }
+    }
+    @media only screen and (max-width: 1300px) {
+        .wrap-sub-card {
+            padding: 30px 10px;
+            margin-right: unset;
+        }
+        .slick-slide > div {
+            margin-left: 16px;
         }
     }
 `;

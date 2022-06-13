@@ -19,7 +19,7 @@ const TeamAllIndex = () => {
                     <Card
                         hoverable
                         style={{
-                            width: 375,
+                            width: "92%",
                             borderRadius: "20px 20px 0px 0px",
                         }}
                         cover={
@@ -52,7 +52,7 @@ const TeamAllIndex = () => {
                     <Card
                         hoverable
                         style={{
-                            width: 375,
+                            width: "92%",
                             borderRadius: "20px 20px 0px 0px",
                         }}
                         cover={
@@ -85,7 +85,7 @@ const TeamAllIndex = () => {
                     <Card
                         hoverable
                         style={{
-                            width: 375,
+                            width: "92%",
                             borderRadius: "20px 20px 0px 0px",
                         }}
                         cover={
@@ -121,7 +121,7 @@ const TeamAllIndex = () => {
                     <Card
                         hoverable
                         style={{
-                            width: 375,
+                            width: "92%",
                             borderRadius: "20px 20px 0px 0px",
                         }}
                         cover={
@@ -154,7 +154,7 @@ const TeamAllIndex = () => {
                     <Card
                         hoverable
                         style={{
-                            width: 375,
+                            width: "92%",
                             borderRadius: "20px 20px 0px 0px",
                         }}
                         cover={
@@ -187,7 +187,7 @@ const TeamAllIndex = () => {
                     <Card
                         hoverable
                         style={{
-                            width: 375,
+                            width: "92%",
                             borderRadius: "20px 20px 0px 0px",
                         }}
                         cover={
