@@ -91,10 +91,16 @@ const SSubOurTeam = styled.div`
         .wrap-sub-card {
             padding: 30px 10px;
             margin-right: unset;
+            .link {
+                font-size: 16px;
+            }
         }
         .slick-slide > div {
             margin-left: 16px;
         }
+    }
+    .slick-slide > div {
+        margin-left: 16px;
     }
 `;
 

@@ -1,6 +1,6 @@
-import { ArrowLeftOutlined, ArrowRightOutlined } from "@ant-design/icons";
+// import { ArrowLeftOutlined, ArrowRightOutlined } from "@ant-design/icons";
 import { Col, Row } from "antd";
-import React, { useState } from "react";
+import React from "react";
 import Slider from "react-slick";
 import { BuildingIcon } from "../icon/components/BuildingIcon";
 import { ButtonSwitchIcon } from "../icon/components/ButtonSwitchIcon";
@@ -8,7 +8,6 @@ import { SETTING } from "./contant";
 import { SSubOurTeam } from "./styled";
 
 const SubOurTeamIndex = () => {
-    const [items] = useState([1, 2, 3, 4]);
     return (
         <SSubOurTeam>
             <div className="bns-flex bns-flex-column bns-align-items-start bns-pb-2">
@@ -31,23 +30,6 @@ const SubOurTeamIndex = () => {
                         <span className="content">Sản xuất công nghiệp</span>
                     </div>
                 </Col>
-                {/* <Col span={20}>
-                    <div className="bns-flex">
-                        {items.map(el => (
-                            <div className="wrap-sub-card" key={el}>
-                                <div className="bns-flex bns-flex-column">
-                                    <BuildingIcon className="build-icon" />
-                                    <span className="name-team">
-                                        ATHENA GROUP VIETNAM
-                                    </span>
-                                    <span className="link bns-pt-3">
-                                        Athenagroup.com.vn
-                                    </span>
-                                </div>
-                            </div>
-                        ))}
-                    </div>
-                </Col> */}
                 <Col span={20}>
                     <Slider {...SETTING}>
                         <div className="wrap-sub-card">
@@ -97,7 +79,7 @@ const SubOurTeamIndex = () => {
                     </Slider>
                 </Col>
             </Row>
-            <Row>
+            {/* <Row>
                 <Col span={24} className="warp-icon">
                     <div className="arrow-left">
                         <ArrowLeftOutlined />
@@ -106,7 +88,7 @@ const SubOurTeamIndex = () => {
                         <ArrowRightOutlined />
                     </div>
                 </Col>
-            </Row>
+            </Row> */}
         </SSubOurTeam>
     );
 };
