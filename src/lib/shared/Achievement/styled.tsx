@@ -74,7 +74,7 @@ const SAchievement = styled.div`
     .Q4 {
         background: #bdcc1e;
     }
-    @media (max-width: 1300px) {
+    @media (max-width: 1450px) {
         .content-img img {
             width: 100%;
             padding: 0px 16px;
