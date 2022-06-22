@@ -65,7 +65,7 @@ const SServiceAccount = styled.div`
     .warp-hot {
         padding-top: 30px;
     }
-    @media only screen and (max-width: 1400px) {
+    @media only screen and (max-width: 1500px) {
         .service-name {
             font-size: 20px;
             line-height: 30px;

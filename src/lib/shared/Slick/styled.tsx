@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 const SSlick = styled.div`
     margin-top: 68px;
+    position: relative;
     .slick-track {
         padding-bottom: 16px;
     }
@@ -36,6 +37,25 @@ const SSlick = styled.div`
     }
     .ant-card-bordered {
         border: none;
+    }
+    .warp-icon {
+        position: absolute;
+        top: 30%;
+        left: -20px;
+    }
+    .left-icon,
+    .right-icon {
+        position: absolute;
+        z-index: 1111111;
+        box-shadow: 0px 4px 120px rgba(0, 0, 0, 0.1);
+        padding: 12px;
+        background: #fff;
+        border-radius: 50%;
+    }
+    .wrap-icon {
+        position: absolute;
+        top: 30%;
+        right: 50px;
     }
 `;
 

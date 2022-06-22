@@ -24,22 +24,27 @@ const SInfomationBanner = styled.div`
     }
     .content-footer {
         padding-top: 54px;
+        img {
+            width: -webkit-fill-available;
+        }
     }
     .wrap-footer {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding-left: 16px;
     }
+
     @media only screen and (max-width: 1300px) {
-        .content-footer img {
-            width: 100%;
-        }
         .content-head {
             font-size: 16px;
         }
-        .wrap-footer {
-            padding-left: 16px;
+    }
+
+    @media only screen and (max-width: 990px) {
+        .content-head {
+            font-size: 12px;
         }
     }
 `;

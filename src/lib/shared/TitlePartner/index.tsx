@@ -9,7 +9,7 @@ const TitlePartnerIndex = () => {
             <Row>
                 <Col span={11}>
                     <span className="title-left">
-                        Grow your business with the right partner
+                        Grow Your Business With The Right Partner
                     </span>
                 </Col>
                 <Col span={2} />

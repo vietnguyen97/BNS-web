@@ -12,7 +12,7 @@ const WorkTeamIndex = () => {
                 <span className="our-team">Our team</span>
             </div>
             <div className="bns-flex bns-justify-content-center team">
-                <span>Những nhà lãnh đạo tài ba</span>
+                <span>Hoạt động thường niên</span>
             </div>
             <Row>
                 <Col span={12}>

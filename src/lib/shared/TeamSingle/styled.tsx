@@ -33,6 +33,16 @@ const STeamSingle = styled.div`
         font-size: 18px;
         line-height: 152.1%;
     }
+    .wrap-icon {
+        padding-top: 72px;
+    }
+    .around {
+        padding: 8px 10px;
+    }
+    .around-right {
+        border: 2px solid #e6e8ec;
+        border-radius: 40px;
+    }
 `;
 
 export { STeamSingle };

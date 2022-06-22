@@ -1,3 +1,4 @@
+import { ArrowLeftOutlined, ArrowRightOutlined } from "@ant-design/icons";
 import Image from "next/image";
 import React from "react";
 import { ButtonSwitchIcon } from "../icon/components/ButtonSwitchIcon";
@@ -42,6 +43,14 @@ const TeamSingleIndex = () => {
                         categories and the best prices for new emerging asset
                         classes.
                     </span>
+                </div>
+            </div>
+            <div className="wrap-icon bns-flex bns-justify-content-center">
+                <div className="around">
+                    <ArrowLeftOutlined />
+                </div>
+                <div className="around around-right">
+                    <ArrowRightOutlined />
                 </div>
             </div>
         </STeamSingle>

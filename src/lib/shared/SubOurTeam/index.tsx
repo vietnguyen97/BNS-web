@@ -1,4 +1,5 @@
 // import { ArrowLeftOutlined, ArrowRightOutlined } from "@ant-design/icons";
+import { ArrowLeftOutlined, ArrowRightOutlined } from "@ant-design/icons";
 import { Col, Row } from "antd";
 import React from "react";
 import Slider from "react-slick";
@@ -79,7 +80,7 @@ const SubOurTeamIndex = () => {
                     </Slider>
                 </Col>
             </Row>
-            {/* <Row>
+            <Row>
                 <Col span={24} className="warp-icon">
                     <div className="arrow-left">
                         <ArrowLeftOutlined />
@@ -88,7 +89,7 @@ const SubOurTeamIndex = () => {
                         <ArrowRightOutlined />
                     </div>
                 </Col>
-            </Row> */}
+            </Row>
         </SSubOurTeam>
     );
 };

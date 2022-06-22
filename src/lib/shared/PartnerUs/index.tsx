@@ -13,7 +13,7 @@ const PartnerUsIndex = () => {
                 <span className="our-team">Our team</span>
             </div>
             <div className="bns-flex bns-justify-content-center team">
-                <span>Những gương mặt tiêu biểu</span>
+                <span>Đối tác tạo nên giá trị</span>
             </div>
             {data.map(el => (
                 <Row className="partner-img" key={el}>

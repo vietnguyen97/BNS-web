@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import { LeftOutlined, RightOutlined } from "@ant-design/icons";
 import { Card, Col, Row } from "antd";
 import React from "react";
 import { SSlick } from "./styled";
@@ -6,98 +7,104 @@ import { SSlick } from "./styled";
 const SlickIndex = () => {
     return (
         <SSlick>
+            <div className="warp-icon">
+                <LeftOutlined className="left-icon" />
+            </div>
+            <div className="wrap-icon">
+                <RightOutlined className="right-icon" />
+            </div>
             <Row>
                 {/* <Slider {...SETTING}> */}
-                    <Col span={8}>
-                        <Card
-                            hoverable
-                            style={{ width: '92%' }}
-                            cover={
-                                <img
-                                    alt="out-team-one"
-                                    src="/asset/image/home/our-team-one.png"
-                                />
-                            }
-                        >
-                            <div>
-                                <div className="bns-flex bns-flex-column bns-align-items-center">
-                                    <span className="name-card">
-                                        Bùi Thị Hoa Hậu
-                                    </span>
-                                    <span className="position-card bns-pt-2">
-                                        CEO
-                                    </span>
-                                    <span className="exp-card bns-pt-2 bns-pl-5 bns-pr-5">
-                                        Hơn 12 năm kinh nghiệm chuyên môn CFO
-                                        tại các FDI SMEs.
-                                    </span>
-                                    <button className="btn-more bns-pt-3">
-                                        Xem thêm
-                                    </button>
-                                </div>
+                <Col span={8}>
+                    <Card
+                        hoverable
+                        style={{ width: "92%" }}
+                        cover={
+                            <img
+                                alt="out-team-one"
+                                src="/asset/image/home/our-team-one.png"
+                            />
+                        }
+                    >
+                        <div>
+                            <div className="bns-flex bns-flex-column bns-align-items-center">
+                                <span className="name-card">
+                                    Bùi Thị Hoa Hậu
+                                </span>
+                                <span className="position-card bns-pt-2">
+                                    CEO
+                                </span>
+                                <span className="exp-card bns-pt-2 bns-pl-5 bns-pr-5">
+                                    Hơn 12 năm kinh nghiệm chuyên môn CFO tại
+                                    các FDI SMEs.
+                                </span>
+                                <button className="btn-more bns-pt-3">
+                                    Xem thêm
+                                </button>
                             </div>
-                        </Card>
-                    </Col>
-                    <Col span={8}>
-                        <Card
-                            hoverable
-                            style={{ width: '92%' }}
-                            cover={
-                                <img
-                                    alt="out-team-two"
-                                    src="/asset/image/home/our-team-two.png"
-                                />
-                            }
-                        >
-                            <div>
-                                <div className="bns-flex bns-flex-column bns-align-items-center">
-                                    <span className="name-card">
-                                        Bùi Thị Hoa Hậu
-                                    </span>
-                                    <span className="position-card bns-pt-2">
-                                        CEO
-                                    </span>
-                                    <span className="exp-card bns-pt-2 bns-pl-5 bns-pr-5">
-                                        Hơn 12 năm kinh nghiệm chuyên môn CFO
-                                        tại các FDI SMEs.
-                                    </span>
-                                    <button className="btn-more bns-pt-3">
-                                        Xem thêm
-                                    </button>
-                                </div>
+                        </div>
+                    </Card>
+                </Col>
+                <Col span={8}>
+                    <Card
+                        hoverable
+                        style={{ width: "92%" }}
+                        cover={
+                            <img
+                                alt="out-team-two"
+                                src="/asset/image/home/our-team-two.png"
+                            />
+                        }
+                    >
+                        <div>
+                            <div className="bns-flex bns-flex-column bns-align-items-center">
+                                <span className="name-card">
+                                    Bùi Thị Hoa Hậu
+                                </span>
+                                <span className="position-card bns-pt-2">
+                                    CEO
+                                </span>
+                                <span className="exp-card bns-pt-2 bns-pl-5 bns-pr-5">
+                                    Hơn 12 năm kinh nghiệm chuyên môn CFO tại
+                                    các FDI SMEs.
+                                </span>
+                                <button className="btn-more bns-pt-3">
+                                    Xem thêm
+                                </button>
                             </div>
-                        </Card>
-                    </Col>
-                    <Col span={8}>
-                        <Card
-                            hoverable
-                            style={{ width: '92%' }}
-                            cover={
-                                <img
-                                    alt="out-team-three"
-                                    src="/asset/image/home/our-team-three.png"
-                                />
-                            }
-                        >
-                            <div>
-                                <div className="bns-flex bns-flex-column bns-align-items-center">
-                                    <span className="name-card">
-                                        Bùi Thị Hoa Hậu
-                                    </span>
-                                    <span className="position-card bns-pt-2">
-                                        CEO
-                                    </span>
-                                    <span className="exp-card bns-pt-2 bns-pl-5 bns-pr-5">
-                                        Hơn 12 năm kinh nghiệm chuyên môn CFO
-                                        tại các FDI SMEs.
-                                    </span>
-                                    <button className="btn-more bns-pt-3">
-                                        Xem thêm
-                                    </button>
-                                </div>
+                        </div>
+                    </Card>
+                </Col>
+                <Col span={8}>
+                    <Card
+                        hoverable
+                        style={{ width: "92%" }}
+                        cover={
+                            <img
+                                alt="out-team-three"
+                                src="/asset/image/home/our-team-three.png"
+                            />
+                        }
+                    >
+                        <div>
+                            <div className="bns-flex bns-flex-column bns-align-items-center">
+                                <span className="name-card">
+                                    Bùi Thị Hoa Hậu
+                                </span>
+                                <span className="position-card bns-pt-2">
+                                    CEO
+                                </span>
+                                <span className="exp-card bns-pt-2 bns-pl-5 bns-pr-5">
+                                    Hơn 12 năm kinh nghiệm chuyên môn CFO tại
+                                    các FDI SMEs.
+                                </span>
+                                <button className="btn-more bns-pt-3">
+                                    Xem thêm
+                                </button>
                             </div>
-                        </Card>
-                    </Col>
+                        </div>
+                    </Card>
+                </Col>
                 {/* </Slider> */}
             </Row>
         </SSlick>

@@ -29,8 +29,8 @@ const AchievementIndex = () => {
                                 Nguồn lực tài chính
                             </span>
                             <span className="content bns-text-end">
-                                Khi chọn BNS làm đơn vị hỗ trợ khởi nghiệp
-                                hgloặc đầu tư dài hạn vào thị trường Việt Nam
+                                Khi chọn BNS làm đơn vị hỗ trợ khởi nghiệp hoặc
+                                đầu tư dài hạn vào thị trường Việt Nam
                             </span>
                         </div>
                         <div className="bns-flex bns-flex-column bns-align-items-end">
