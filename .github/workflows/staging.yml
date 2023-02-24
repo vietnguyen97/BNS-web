@@ -1,8 +1,9 @@
 name: GitHub Actions Demo
 run-name: Deploy Staging Demo 🚀
-on: 
-  push:
-    branches: [staging]
+on:
+  pull_request:
+    branches:
+      - staging
   workflow_dispatch:
 jobs:
   build:
@@ -16,4 +17,9 @@ jobs:
           node-version: '16.x'
       - name: Install dependencies
         run: yarn install
-      - run: yarn build 
+      - run: yarn build
+      - run: yarn test
+on:
+  push:
+    branches:
+      - staging
