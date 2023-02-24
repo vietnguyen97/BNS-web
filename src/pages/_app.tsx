@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Head from "next/head";
 
 function MyApp({ Component, pageProps }: AppProps) {
+    console.log('1111')
     return (
         <>
             <Head>
