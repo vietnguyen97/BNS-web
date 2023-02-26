@@ -12,6 +12,7 @@
     "@ant-design/icons": "^4.7.0",
     "@typescript-eslint/eslint-plugin": "^5.12.1",
     "antd": "^4.20.7",
+    "caniuse-lite": "^1.0.30001458",
     "eslint-config-prettier": "^8.4.0",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-prettier": "^4.0.0",
