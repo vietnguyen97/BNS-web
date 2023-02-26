@@ -6,7 +6,10 @@
     "start:dev": "next dev -p 8088",
     "build": "next build",
     "start:prod": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test:unit": "cross-env ENV=test jest --coverage",
+    "test": "npm run test:unit",
+    "test:watch": "cross-env ENV=test jest --watchAll"
   },
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
